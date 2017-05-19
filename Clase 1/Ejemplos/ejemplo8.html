@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Ejemplo 8</title>
+  <style>
+    .card {
+      display: inline-block;
+      border: 2px solid black;
+      margin: 5px;
+    }
+
+    .tel {
+      color: blue;
+    }
+
+    #gris {
+      background: lightgrey;
+    }
+
+    #ISBN0881792063 {
+      background-color: orange;
+    }
+
+    #ISBN0321127307 {
+      background-color: lightblue;
+    }
+    .listing{
+      background-color: grey;
+    }
+    .description{
+      color:white;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>Uso de div</h3>
+  <h2>Tarjeta resumen noticia</h2>
+  <div class="card">
+    <img src="logo.png" alt="Imagen de la noticia">
+    <p><cite>La genialidad de homero</cite>, James Felici</p>
+    <p>Una mezcla de genialidades y buena suerte ayudan a homero a ser un gran tipo.
+    </p>
+  </div>
+  <div class="card" id="gris">
+    <img src="logo.png" alt="Imagen de la noticia">
+    <p><cite>La genialidad de homero</cite>, James Felici</p>
+    <p>Una mezcla de genialidades y buena suerte ayudan a homero a ser un gran tipo.
+    </p>
+  </div>
+  <div class="card">
+    <img src="logo.png" alt="Imagen de la noticia">
+    <p><cite>La genialidad de homero</cite>, James Felici</p>
+    <p>Una mezcla de genialidades y buena suerte ayudan a homero a ser un gran tipo.
+    </p>
+  </div>
+  <div class="card">
+    <img src="logo.png" alt="Imagen de la noticia">
+    <p><cite>La genialidad de homero</cite>, James Felici</p>
+    <p>Una mezcla de genialidades y buena suerte ayudan a homero a ser un gran tipo.
+    </p>
+  </div>
+  <hr>
+  <h3>Uso de span</h3>
+  <div>
+    <ul>
+      <li>John: <span class="tel">999.8282</span></li>
+      <li>Paul: <span class="tel">888.4889</span></li>
+      <li>George: <span class="tel">888.1628</span></li>
+      <li>Ringo: <span class="tel">999.3220</span></li>
+    </ul>
+  </div>
+  <hr>
+  <h3>Uso del atributo id</h3>
+  <div id="ISBN0321127307">
+    <img src="logo.png" alt="">
+    <p><cite>The Complete Manual of Typography</cite>, James Felici</p>
+    <p>A combination of type history and examples of good and bad type.
+    </p>
+  </div>
+  <div id="ISBN0881792063">
+    <img src="logo.png" alt="">
+    <p><cite>The Elements of Typographic Style</cite>, Robert Bringhurst
+    </p>
+    <p>This lovely, well-written book is concerned foremost with creating beautiful typography.</p>
+  </div>
+  <hr>
+  <h3>Uso del atirbuto class</h3>
+  <div id="ISBN03211273037" class="listing">
+    <header>
+      <img src="logo.png" alt="">
+      <p><cite>The Complete Manual of Typography</cite>, James Felici</p>
+    </header>
+    <p class="description">A combination of type history and examples of good and bad type.</p>
+  </div>
+  <div id="ISBN08817920623" class="listing">
+    <header>
+      <img src="logo.png" alt="">
+      <p><cite>The Elements of Typographic Style</cite>, Robert Bringhurst
+      </p>
+    </header>
+    <p class="description">This lovely, well-written book is concerned foremost with creating beautiful typography.</p>
+  </div>
+</body>
+
+</html>
