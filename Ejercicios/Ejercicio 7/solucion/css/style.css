@@ -1,0 +1,31 @@
+h1 {
+  color: green;
+  border-bottom: 1px solid blue;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 15px;
+  margin-left: 100px;
+  font-family: Georgia;
+}
+
+h2 {
+  color: blue;
+  margin-left: 100px;
+}
+
+ul {
+  margin-left: 130px;
+}
+
+img {
+  float: right;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
