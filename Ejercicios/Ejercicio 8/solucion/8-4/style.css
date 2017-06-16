@@ -1,0 +1,19 @@
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 100%;
+}
+p{
+  font-size: 14px;
+}
+h1 {
+  font-family: "Marko One", Georgia, serif;
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 1em;
+  font-style: oblique;
+}
+h4{
+  font-weight: normal;
+  font-style: italic;
+}
