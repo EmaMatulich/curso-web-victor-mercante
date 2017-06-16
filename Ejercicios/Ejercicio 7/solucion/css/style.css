@@ -11,6 +11,20 @@ p {
   font-size: 15px;
   margin-left: 100px;
   font-family: Georgia;
+  color:black !important;
+}
+p{
+  color:blue;
+}
+
+p{
+  color:red;
+  color:blue;
+  color:green;
+}
+
+div>p{
+  font-family: sans-serif;
 }
 
 h2 {
@@ -28,4 +42,13 @@ img {
   margin-right: 12px;
   margin-bottom: 0;
   margin-top: 0;
+}
+
+
+h1, h2, h3 ,p , ul{
+  color:red;
+}
+
+h4,h5,h6,span{
+  color:blue;
 }
