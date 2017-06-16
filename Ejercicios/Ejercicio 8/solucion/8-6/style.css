@@ -16,10 +16,7 @@ h4{
   font-weight: normal;
   font-style: italic;
 }
-
-
-
-dt strong {
+h4>strong {
   color: maroon;
 }
 #info {
@@ -33,12 +30,11 @@ dt strong {
   font-style: italic;
   color: gray;
 }
-p.warning, sup {
-  font-size: small;
-  color: red;
-}
 .label {
   font-weight: bold;
-  font-variant: small-caps;
   font-style: normal;
+}
+p.warning{
+  font-size: small;
+  color: red;
 }
