@@ -1,0 +1,22 @@
+p{
+  height: 150px;
+  width: 300px;
+  border: 2px solid blue;
+  background-color: lightgreen;
+  margin-bottom : 100px; 
+}
+.primero{
+  overflow: visible;
+}
+.segundo{
+overflow: hidden;
+}
+.tercero{
+  overflow: scroll;
+}
+.cuarto{
+overflow: auto;
+}
+.quinto{
+overflow: auto;
+}
