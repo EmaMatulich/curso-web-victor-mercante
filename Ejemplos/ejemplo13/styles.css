@@ -1,0 +1,8 @@
+body {
+  text-align: justify;
+  margin-right: 130px;
+  margin-left: 130px;
+  background-image: url(imagenes/boca.png), url(imagenes/river.gif), url(imagenes/belgrano.jpg);
+  background-position: left top, center center, right bottom;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+}

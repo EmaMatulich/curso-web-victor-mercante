@@ -1,0 +1,26 @@
+body{
+  background-image: linear-gradient(0deg,yellow,green);
+}
+body{
+  background-image: linear-gradient(90deg,yellow,green);
+}
+body{
+  background-image: linear-gradient(180deg,yellow,green);
+}
+body{
+  background-image: linear-gradient(270deg,yellow,green);
+}
+
+
+body{
+  background-image: linear-gradient(to top,yellow,green);
+}
+body{
+  background-image: linear-gradient(to right,yellow,green);
+}
+body{
+  background-image: linear-gradient(to bottom,yellow,green);
+}
+body{
+  background-image: linear-gradient(to left,yellow,green);
+}
