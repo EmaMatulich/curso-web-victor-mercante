@@ -1,0 +1,108 @@
+body {
+  font-family: Lato sans-serif;
+  font-size: 100%;
+  margin: 0;
+}
+
+header {
+  background-color: #0568bf;
+}
+
+nav {
+  background-color: black;
+}
+
+nav, .header-top {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.header-top {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+nav>ul {
+  list-style-type: none;
+  margin:0px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 0;
+}
+nav>ul>li {
+  display: inline;
+  color: white;
+}
+
+nav>ul>li>a {
+  text-align: center;
+  text-decoration: none;
+  padding: 13px 10px 13px 10px;
+}
+
+nav>ul>li>a:link, nav>ul>li>a:visited {
+  color: white;
+}
+
+a.link-home:link {
+  border-top: 3px solid #3f4457;
+}
+a.link-locales:link {
+  border-top: 3px solid #ee1c24;
+}
+a.link-regionales:link{
+  border-top: 3px solid #007236;
+}
+a.link-policiales:link{
+  border-top: 3px solid #ebb424;
+}
+a.link-deportes:link{
+  border-top: 3px solid #8c6239;
+}
+a.link-culturales:link{
+  border-top: 3px solid #0072bc;
+}
+a.link-suplementos:link{
+  border-top: 3px solid #ed008c;
+}
+a.link-servicios:link{
+  border-top: 3px solid #ee1c24;
+}
+a.link-opinioes:link{
+  border-top: 3px solid #f26522;
+}
+a.link-info-general:link{
+  border-top: 3px solid #39b54a;
+}
+
+
+a.link-home:focus, a.link-home:hover, a.link-home:hover {
+  background-color: #3f4457;
+}
+a.link-locales:focus, a.link-locales:hover, a.link-locales:hover {
+  background-color:#ee1c24;
+}
+a.link-regionales:focus, a.link-regionales:hover, a.link-regionales:hover {
+  background-color: #007236;
+}
+a.link-policiales:focus, a.link-policiales:hover, a.link-policiales:hover {
+  background-color: #ebb424;
+}
+a.link-deportes:focus, a.link-deportes:hover, a.link-deportes:hover {
+  background-color: #8c6239;
+}
+a.link-culturales:focus, a.link-culturales:hover, a.link-culturales:hover {
+  background-color: #0072bc;
+}
+a.link-suplementos:focus, a.link-suplementos:hover, a.link-suplementos:hover {
+  background-color: #ed008c;
+}
+a.link-servicios:focus, a.link-servicios:hover, a.link-servicios:hover {
+  background-color: #ee1c24;
+}
+a.link-opinioes:focus, a.link-opinioes:hover, a.link-opinioes:hover {
+  background-color: #f26522;
+}
+a.link-info-general:focus, a.link-info-general:hover, a.link-info-general:hover {
+  background-color: #39b54a;
+}

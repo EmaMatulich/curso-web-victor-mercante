@@ -17,6 +17,7 @@ header {
   background-image: url(images/purpledot.png);
   background-repeat: repeat-x;
   background-position: center top;
+  background-attachment: fixed;
 }
 
 a {
