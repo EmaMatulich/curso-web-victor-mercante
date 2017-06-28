@@ -28,6 +28,7 @@ nav>ul {
   padding-top: 16px;
   padding-bottom: 16px;
   padding-left: 0;
+  display:flex;
 }
 nav>ul>li {
   display: inline;
@@ -40,69 +41,89 @@ nav>ul>li>a {
   padding: 13px 10px 13px 10px;
 }
 
-nav>ul>li>a:link, nav>ul>li>a:visited {
+nav>ul>li>a:link{
   color: white;
 }
 
-a.link-home:link {
+a.link-home:link, a.link-home:visited{
+  color:white;
   border-top: 3px solid #3f4457;
 }
-a.link-locales:link {
+a.link-locales:link,a.link-locales:visited {
+  color:white;
   border-top: 3px solid #ee1c24;
 }
-a.link-regionales:link{
+a.link-regionales:link,a.link-regionales:visited{
+  color:white;
   border-top: 3px solid #007236;
 }
-a.link-policiales:link{
+a.link-policiales:link,a.link-policiales:visited{
+  color:white;
   border-top: 3px solid #ebb424;
 }
-a.link-deportes:link{
+a.link-deportes:link,a.link-deportes:visited{
+  color:white;
   border-top: 3px solid #8c6239;
 }
-a.link-culturales:link{
+a.link-culturales:link,a.link-culturales:visited{
+  color:white;
   border-top: 3px solid #0072bc;
 }
-a.link-suplementos:link{
+a.link-suplementos:link,a.link-suplementos:visited{
+  color:white;
   border-top: 3px solid #ed008c;
 }
-a.link-servicios:link{
+a.link-servicios:link,a.link-servicios:visited{
+  color:white;
   border-top: 3px solid #ee1c24;
 }
-a.link-opinioes:link{
+a.link-opinioes:link,a.link-opinioes:visited{
+  color:white;
   border-top: 3px solid #f26522;
 }
-a.link-info-general:link{
+a.link-info-general:link,a.link-info-general:visited{
+  color:white;
   border-top: 3px solid #39b54a;
 }
 
 
 a.link-home:focus, a.link-home:hover, a.link-home:hover {
+  color:white;
   background-color: #3f4457;
 }
 a.link-locales:focus, a.link-locales:hover, a.link-locales:hover {
+  color:white;
   background-color:#ee1c24;
 }
 a.link-regionales:focus, a.link-regionales:hover, a.link-regionales:hover {
+  color:white;
   background-color: #007236;
 }
 a.link-policiales:focus, a.link-policiales:hover, a.link-policiales:hover {
+  color:white;
   background-color: #ebb424;
 }
 a.link-deportes:focus, a.link-deportes:hover, a.link-deportes:hover {
+  color:white;
   background-color: #8c6239;
 }
 a.link-culturales:focus, a.link-culturales:hover, a.link-culturales:hover {
+  color:white;
   background-color: #0072bc;
 }
 a.link-suplementos:focus, a.link-suplementos:hover, a.link-suplementos:hover {
+  color:white;
   background-color: #ed008c;
 }
 a.link-servicios:focus, a.link-servicios:hover, a.link-servicios:hover {
+  color:white;
   background-color: #ee1c24;
 }
 a.link-opinioes:focus, a.link-opinioes:hover, a.link-opinioes:hover {
+  color:white;
   background-color: #f26522;
 }
 a.link-info-general:focus, a.link-info-general:hover, a.link-info-general:hover {
+  color:white;
   background-color: #39b54a;
 }
