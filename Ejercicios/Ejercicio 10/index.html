@@ -6,6 +6,7 @@
   <title>El noticiario</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -34,15 +35,34 @@
       <section id="noticias-locales">
         <h2 class="titulo-seccion">Locales</h2>
         <article class="resumen-noticia">
-          <img class="imagen-resumen"src="imagen-noticia.jpg" alt="">
-          <h3 class="titulo-resumen">Firmaron convenio con Apross</h3>
-          <p><span class="fecha-noticia">27 de septiembre de 2016</span></p>
-          <p class="parrafo-resumen">Los directivos lo postularon como “un gran logro” para brindar prestaciones a los afiliados de la obra social estatal y la de mayor alcance en la provincia La Clínica de la Familia Cooperativa</p>
-          <button type="button" name="button">Leer m&aacute;s</button>
+          <div class="imagen-wrapper">
+            <img class="imagen-resumen"src="imagen-noticia.jpg" alt="noticia">
+          </div>
+          <div class="resumen-wrapper">
+            <h3 class="titulo-resumen">Firmaron convenio con Apross</h3>
+            <p class="fecha-noticia"></p>
+            <p class="parrafo-resumen">Los directivos lo postularon como “un gran logro” para brindar prestaciones a los afiliados de la obra social estatal y la de mayor alcance en la provincia La Clínica de la Familia Cooperativa</p>
+            <button type="button" name="button">Leer m&aacute;s</button>
+          </div>
+        </article>
+        <article class="resumen-noticia">
+          <div class="imagen-wrapper">
+            <img class="imagen-resumen"src="imagen-noticia.jpg" alt="noticia">
+          </div>
+          <div class="resumen-wrapper">
+            <h3 class="titulo-resumen">Firmaron convenio con Apross</h3>
+            <p class="fecha-noticia"></p>
+            <p class="parrafo-resumen">Los directivos lo postularon como “un gran logro” para brindar prestaciones a los afiliados de la obra social estatal y la de mayor alcance en la provincia La Clínica de la Familia Cooperativa</p>
+            <button type="button" name="button">Leer m&aacute;s</button>
+          </div>
         </article>
       </section>
     </section>
     <section class="ultimas-noticias">
+      <form class="" action="index.html" method="post">
+        <input type="text" name="" value="">
+        <button type="button" name="button">Buscar</button>
+      </form>
       <article class="resumen-ultima-noticia">
         <img src="" alt="">
         <h4>qwewqe</h4>
@@ -61,6 +81,14 @@
   <footer>
 
   </footer>
+  <script type="text/javascript">
+  var fechaActual= new Date();
+  var fechaActualConFormato= fechaActual.getDate()+"/"+(fechaActual.getMonth()+1)+"/"+fechaActual.getFullYear();
+  var pConFecha=document.getElementsByClassName('fecha-noticia');
+  for(var i=0; i<pConFecha.length;i++){
+    pConFecha[i].innerHTML=fechaActualConFormato;
+  }
+  </script>
 </body>
 
 </html>
