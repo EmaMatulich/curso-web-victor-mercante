@@ -163,6 +163,10 @@ h3.titulo-resumen{
   font-size: 20px;
   margin:0;
 }
+h3.titulo-resumen:hover{
+  color:#818181;
+  cursor: pointer;
+}
 article.resumen-noticia{
   display: flex;
   padding-bottom:40px;
@@ -176,6 +180,10 @@ article.resumen-noticia>div.imagen-wrapper{
 img.imagen-resumen{
   width: 100%;
 }
+img.imagen-resumen:hover{
+  opacity: 0.8;
+  cursor:pointer;
+}
 article.resumen-noticia>div.resumen-wrapper{
   width: 40%;
 }
@@ -183,4 +191,30 @@ p.fecha-noticia{
   font-size: 11px;
   margin: 0;
   padding:0;
+}
+p.parrafo-resumen{
+  font-size: 14px;
+  margin-top:0;
+  margin-bottom: 10%;
+  padding:0;
+}
+
+button.boton-info{
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  background: #0568bf;
+  padding: 7px 10px 7px 10px;
+  text-decoration: none;
+  border-width: 0;
+  float: right;
+}
+
+button.boton-info:hover {
+  background: #818181;
+  text-decoration: none;
+  cursor: pointer;
 }
