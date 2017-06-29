@@ -3,7 +3,7 @@ body {
   font-size: 100%;
   margin: 0;
 }
-
+/*header*/
 header {
   background-color: #0568bf;
 }
@@ -41,93 +41,74 @@ nav>ul>li>a {
   padding: 13px 10px 13px 10px;
 }
 
-nav>ul>li>a:link{
+nav>ul>li>a:link,nav>ul>li>a:visited,nav>ul>li>a:focus,nav>ul>li>a:hover,nav>ul>li>a:active{
   color: white;
 }
 
 a.link-home:link, a.link-home:visited{
-  color:white;
   border-top: 3px solid #3f4457;
 }
 a.link-locales:link,a.link-locales:visited {
-  color:white;
   border-top: 3px solid #ee1c24;
 }
 a.link-regionales:link,a.link-regionales:visited{
-  color:white;
   border-top: 3px solid #007236;
 }
 a.link-policiales:link,a.link-policiales:visited{
-  color:white;
   border-top: 3px solid #ebb424;
 }
 a.link-deportes:link,a.link-deportes:visited{
-  color:white;
   border-top: 3px solid #8c6239;
 }
 a.link-culturales:link,a.link-culturales:visited{
-  color:white;
   border-top: 3px solid #0072bc;
 }
 a.link-suplementos:link,a.link-suplementos:visited{
-  color:white;
   border-top: 3px solid #ed008c;
 }
 a.link-servicios:link,a.link-servicios:visited{
-  color:white;
   border-top: 3px solid #ee1c24;
 }
-a.link-opinioes:link,a.link-opinioes:visited{
-  color:white;
+a.link-opiniones:link,a.link-opiniones:visited{
   border-top: 3px solid #f26522;
 }
 a.link-info-general:link,a.link-info-general:visited{
-  color:white;
   border-top: 3px solid #39b54a;
 }
 
 
-a.link-home:focus, a.link-home:hover, a.link-home:hover {
-  color:white;
+a.link-home:focus, a.link-home:hover, a.link-home:active{
   background-color: #3f4457;
 }
-a.link-locales:focus, a.link-locales:hover, a.link-locales:hover {
-  color:white;
+a.link-locales:focus, a.link-locales:hover, a.link-locales:active {
   background-color:#ee1c24;
 }
-a.link-regionales:focus, a.link-regionales:hover, a.link-regionales:hover {
-  color:white;
+a.link-regionales:focus, a.link-regionales:hover, a.link-regionales:active {
   background-color: #007236;
 }
-a.link-policiales:focus, a.link-policiales:hover, a.link-policiales:hover {
-  color:white;
+a.link-policiales:focus, a.link-policiales:hover, a.link-policiales:active{
   background-color: #ebb424;
 }
-a.link-deportes:focus, a.link-deportes:hover, a.link-deportes:hover {
-  color:white;
+a.link-deportes:focus, a.link-deportes:hover, a.link-deportes:active {
   background-color: #8c6239;
 }
-a.link-culturales:focus, a.link-culturales:hover, a.link-culturales:hover {
-  color:white;
+a.link-culturales:focus, a.link-culturales:hover, a.link-culturales:active{
   background-color: #0072bc;
 }
-a.link-suplementos:focus, a.link-suplementos:hover, a.link-suplementos:hover {
-  color:white;
+a.link-suplementos:focus, a.link-suplementos:hover, a.link-suplementos:active{
   background-color: #ed008c;
 }
-a.link-servicios:focus, a.link-servicios:hover, a.link-servicios:hover {
-  color:white;
+a.link-servicios:focus, a.link-servicios:hover, a.link-servicios:active{
   background-color: #ee1c24;
 }
-a.link-opinioes:focus, a.link-opinioes:hover, a.link-opinioes:hover {
-  color:white;
+a.link-opiniones:focus, a.link-opiniones:hover, a.link-opiniones:active{
   background-color: #f26522;
 }
-a.link-info-general:focus, a.link-info-general:hover, a.link-info-general:hover {
-  color:white;
+a.link-info-general:focus, a.link-info-general:hover, a.link-info-general:active{
   background-color: #39b54a;
 }
 
+/*Seccion principal*/
 section.contenedor{
   display: flex;
 }
@@ -207,7 +188,6 @@ button.boton-info{
   -webkit-border-radius: 4;
   -moz-border-radius: 4;
   border-radius: 4px;
-  font-family: Arial;
   color: #ffffff;
   font-size: 12px;
   background: #0568bf;
