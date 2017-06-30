@@ -214,7 +214,6 @@ input.search{
   -webkit-border-radius: 4;
   -moz-border-radius: 4;
   border-radius: 4px;
-  font-family: Arial;
   color: #ffffff;
   font-size: 12px;
   background: #0568bf;
@@ -228,6 +227,7 @@ input.search{
 .boton-search:hover {
   background: #545454;
   text-decoration: none;
+  cursor: pointer;
 }
 section.listado-ultimas-noticias{
   margin-left: 2%;
