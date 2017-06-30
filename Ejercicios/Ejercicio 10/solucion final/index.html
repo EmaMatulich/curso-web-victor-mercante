@@ -263,11 +263,11 @@
   for(var j=0; j<links.length;j++){
     links[j].addEventListener("click", function(){
       for(var x=0;x<links.length;x++){
-          if(links[x].classList.conains('active')){
+          if(links[x].classList.contains('active')){
             links[x].classList.remove('active');
           }
       }
-      links[j].classList.add("active");
+      this.classList.add('active');
     });
   }
   </script>
