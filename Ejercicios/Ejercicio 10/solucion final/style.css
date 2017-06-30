@@ -77,34 +77,34 @@ a.link-info-general:link,a.link-info-general:visited{
 }
 
 
-a.link-home:focus, a.link-home:hover, a.link-home:active{
+a.link-home:focus, a.link-home:hover, a.link-home:active, a.link-home.active{
   background-color: #3f4457;
 }
-a.link-locales:focus, a.link-locales:hover, a.link-locales:active {
+a.link-locales:focus, a.link-locales:hover, a.link-locales:active, a.link-locales.active {
   background-color:#ee1c24;
 }
-a.link-regionales:focus, a.link-regionales:hover, a.link-regionales:active {
+a.link-regionales:focus, a.link-regionales:hover, a.link-regionales:active, a.link-regionales.active {
   background-color: #007236;
 }
-a.link-policiales:focus, a.link-policiales:hover, a.link-policiales:active{
+a.link-policiales:focus, a.link-policiales:hover, a.link-policiales:active, a.link-policiales.active {
   background-color: #ebb424;
 }
-a.link-deportes:focus, a.link-deportes:hover, a.link-deportes:active {
+a.link-deportes:focus, a.link-deportes:hover, a.link-deportes:active, a.link-deportes.active {
   background-color: #8c6239;
 }
-a.link-culturales:focus, a.link-culturales:hover, a.link-culturales:active{
+a.link-culturales:focus, a.link-culturales:hover, a.link-culturales:active, a.link-culturales.active{
   background-color: #0072bc;
 }
-a.link-suplementos:focus, a.link-suplementos:hover, a.link-suplementos:active{
+a.link-suplementos:focus, a.link-suplementos:hover, a.link-suplementos:active, a.link-suplementos.active{
   background-color: #ed008c;
 }
-a.link-servicios:focus, a.link-servicios:hover, a.link-servicios:active{
+a.link-servicios:focus, a.link-servicios:hover, a.link-servicios:active,a.link-servicios.active{
   background-color: #ee1c24;
 }
-a.link-opiniones:focus, a.link-opiniones:hover, a.link-opiniones:active{
+a.link-opiniones:focus, a.link-opiniones:hover, a.link-opiniones:active,a.link-opiniones.active{
   background-color: #f26522;
 }
-a.link-info-general:focus, a.link-info-general:hover, a.link-info-general:active{
+a.link-info-general:focus, a.link-info-general:hover, a.link-info-general:active,a.link-info-general.active{
   background-color: #39b54a;
 }
 

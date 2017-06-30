@@ -15,16 +15,16 @@
     </div>
     <nav>
       <ul>
-        <li><a class="link-home" href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-        <li><a  class="link-locales" href="#noticias-locales">Locales</a></li>
-        <li><a  class="link-regionales" href="#noticias-regionales">Regionales</a></li>
-        <li><a class="link-policiales"  href="#noticias-policiales">Policiales</a></li>
-        <li><a class="link-deportes" href="#">Deportes</a></li>
-        <li><a class="link-culturales"  href="#">Culturales</a></li>
-        <li><a class="link-suplementos"  href="#">Suplementos</a></li>
-        <li><a class="link-servicios" href="#">Servicios</a></li>
-        <li><a class="link-opiniones"  href="#">Opiniones</a></li>
-        <li><a  class="link-info-general" href="#">Información General</a></li>
+        <li><a class="link-home link" href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+        <li><a class="link-locales link" href="#noticias-locales">Locales</a></li>
+        <li><a class="link-regionales link" href="#noticias-regionales">Regionales</a></li>
+        <li><a class="link-policiales link"  href="#noticias-policiales">Policiales</a></li>
+        <li><a class="link-deportes link" href="#">Deportes</a></li>
+        <li><a class="link-culturales link"  href="#">Culturales</a></li>
+        <li><a class="link-suplementos link"  href="#">Suplementos</a></li>
+        <li><a class="link-servicios link" href="#">Servicios</a></li>
+        <li><a class="link-opiniones link"  href="#">Opiniones</a></li>
+        <li><a class="link-info-general link" href="#">Información General</a></li>
       </ul>
       <!--  BARRA DE NAVEGACION DE COLOR NEGRO-->
     </nav>
@@ -258,6 +258,17 @@
   var pConFecha=document.getElementsByClassName('fecha-noticia');
   for(var i=0; i<pConFecha.length;i++){
     pConFecha[i].innerHTML=fechaActualConFormato;
+  }
+  var links=document.getElementsByClassName('link');
+  for(var j=0; j<links.length;j++){
+    links[j].addEventListener("click", function(){
+      for(var x=0;x<links.length;x++){
+          if(links[x].classList.conains('active')){
+            links[x].classList.remove('active');
+          }
+      }
+      links[j].classList.add("active");
+    });
   }
   </script>
 </body>
