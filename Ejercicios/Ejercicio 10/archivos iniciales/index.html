@@ -258,23 +258,33 @@
 
   </footer>
   <script type="text/javascript">
+  // Setea la fecha en cada parrafo con la clase fecha-notitica
   var fechaActual= new Date();
   var fechaActualConFormato= fechaActual.getDate()+"/"+(fechaActual.getMonth()+1)+"/"+fechaActual.getFullYear();
   var pConFecha=document.getElementsByClassName('fecha-noticia');
   for(var i=0; i<pConFecha.length;i++){
     pConFecha[i].innerHTML=fechaActualConFormato;
   }
+  //Le da a un link la clase active cuando se clickea
+  //y se la saca al clickeado antes
+  var ultimoClickeado=null;
   var links=document.getElementsByClassName('link');
   for(var j=0; j<links.length;j++){
     links[j].addEventListener("click", function(){
-      for(var x=0;x<links.length;x++){
-          if(links[x].classList.contains('active')){
-            links[x].classList.remove('active');
-          }
+      if(ultimoClickeado!==null){
+        ultimoClickeado.classList.remove('active')
       }
       this.classList.add('active');
+      ultimoClickeado=this;
+      // for(var x=0;x<links.length;x++){
+      //     if(links[x].classList.contains('active')){
+      //       links[x].classList.remove('active');
+      //     }
+      // }
+      // this.classList.add('active');
     });
   }
+  //cambia el texto del elemento con id titular
   function setSeccion(seccion){
     document.getElementById('titular').innerHTML=seccion;
   }
