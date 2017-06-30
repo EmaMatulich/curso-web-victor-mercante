@@ -15,16 +15,16 @@
     </div>
     <nav>
       <ul>
-        <li><a class="link-home link" href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-        <li><a class="link-locales link" href="#noticias-locales">Locales</a></li>
-        <li><a class="link-regionales link" href="#noticias-regionales">Regionales</a></li>
-        <li><a class="link-policiales link"  href="#noticias-policiales">Policiales</a></li>
-        <li><a class="link-deportes link" href="#">Deportes</a></li>
-        <li><a class="link-culturales link"  href="#">Culturales</a></li>
-        <li><a class="link-suplementos link"  href="#">Suplementos</a></li>
-        <li><a class="link-servicios link" href="#">Servicios</a></li>
-        <li><a class="link-opiniones link"  href="#">Opiniones</a></li>
-        <li><a class="link-info-general link" href="#">Información General</a></li>
+        <li><a class="link-home link" onclick="setSeccion('Portada')" href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+        <li><a class="link-locales link" onclick="setSeccion('Locales')" href="#">Locales</a></li>
+        <li><a class="link-regionales link" onclick="setSeccion('Regionales')" href="#">Regionales</a></li>
+        <li><a class="link-policiales link"  onclick="setSeccion('Policiales')" href="#">Policiales</a></li>
+        <li><a class="link-deportes link" onclick="setSeccion('Deportes')" href="#">Deportes</a></li>
+        <li><a class="link-culturales link"  onclick="setSeccion('Cultura')" href="#">Culturales</a></li>
+        <li><a class="link-suplementos link"  onclick="setSeccion('Suplementos')" href="#">Suplementos</a></li>
+        <li><a class="link-servicios link" onclick="setSeccion('Servicios')" href="#">Servicios</a></li>
+        <li><a class="link-opiniones link"  onclick="setSeccion('Opiniones')" href="#">Opiniones</a></li>
+        <li><a class="link-info-general link" onclick="setSeccion('Información General')" href="#">Información General</a></li>
       </ul>
       <!--  BARRA DE NAVEGACION DE COLOR NEGRO-->
     </nav>
@@ -32,8 +32,8 @@
   <!-- En los parrafos agregar :after ... -->
   <section class="contenedor">
     <section class="noticias">
-      <section id="noticias-locales">
-        <h2 class="titulo-seccion">Locales</h2>
+      <section>
+        <h2 id="titular" class="titulo-seccion">Portada</h2>
         <article class="resumen-noticia">
           <div class="imagen-wrapper">
             <img class="imagen-resumen" src="imagen-noticia.jpg" alt="noticia">
@@ -56,9 +56,6 @@
             <button class="boton-info" type="button" name="button">Leer m&aacute;s</button>
           </div>
         </article>
-      </section>
-      <section id="noticias-regionales">
-        <h2 class="titulo-seccion">Regionales</h2>
         <article class="resumen-noticia">
           <div class="imagen-wrapper">
             <img class="imagen-resumen" src="imagen-noticia.jpg" alt="noticia">
@@ -81,9 +78,17 @@
             <button class="boton-info" type="button" name="button">Leer m&aacute;s</button>
           </div>
         </article>
-      </section>
-      <section id="noticias-policiales">
-        <h2 class="titulo-seccion">Policiales</h2>
+        <article class="resumen-noticia">
+          <div class="imagen-wrapper">
+            <img class="imagen-resumen" src="imagen-noticia.jpg" alt="noticia">
+          </div>
+          <div class="resumen-wrapper">
+            <h3 class="titulo-resumen">Firmaron convenio con Apross</h3>
+            <p class="fecha-noticia"></p>
+            <p class="parrafo-resumen">Los directivos lo postularon como “un gran logro” para brindar prestaciones a los afiliados de la obra social estatal y la de mayor alcance en la provincia La Clínica de la Familia Cooperativa</p>
+            <button class="boton-info" type="button" name="button">Leer m&aacute;s</button>
+          </div>
+        </article>
         <article class="resumen-noticia">
           <div class="imagen-wrapper">
             <img class="imagen-resumen" src="imagen-noticia.jpg" alt="noticia">
@@ -269,6 +274,9 @@
       }
       this.classList.add('active');
     });
+  }
+  function setSeccion(seccion){
+    document.getElementById('titular').innerHTML=seccion;
   }
   </script>
 </body>
