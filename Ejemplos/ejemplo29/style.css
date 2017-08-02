@@ -1,0 +1,13 @@
+p.float {
+  float: left;
+  width: 200px;
+  margin-top: 0px;
+  background: #A5D3DE;
+}
+
+p {
+  border: 1px solid red;
+}
+.espacio{
+  clear: left;
+}

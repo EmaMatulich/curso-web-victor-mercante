@@ -1,0 +1,35 @@
+
+/*Paso 1*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/*Paso 2*/
+ul li {
+  float: left;
+}
+/*Paso 3*/
+ul li a {
+  display: block;
+  /* more styles */
+}
+/*Paso 4*/
+p{
+  clear:left;
+}
+
+ul, li{
+  padding: 20px;
+}
+li{
+  margin: 5px;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+li{
+  background-color: black;
+  border-radius: 20px;
+}

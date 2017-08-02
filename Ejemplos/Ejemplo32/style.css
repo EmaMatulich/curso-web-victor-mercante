@@ -1,0 +1,20 @@
+span{
+  position: relative;
+  top: 30px;
+  left: 60px;
+  background-color: fuchsia;
+}
+p{
+  background-color: lightgrey;
+  border:1px solid fuchsia;
+}
+span.abs{
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  margin: 10px;
+  background-color: lightblue;
+}
+div.block{
+  position: relative;
+}

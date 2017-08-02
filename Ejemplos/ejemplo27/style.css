@@ -1,0 +1,14 @@
+p {
+  padding: 15px;
+  background-color: #FFF799;
+  border: 2px solid #6C4788;
+}
+
+span.elemento-flotante {
+  float: right;
+  margin: 10px;
+  width: 200px;
+  color: #FFF;
+  background-color: #9D080D;
+  padding: 4px;
+}

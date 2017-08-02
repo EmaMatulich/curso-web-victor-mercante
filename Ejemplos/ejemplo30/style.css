@@ -1,0 +1,10 @@
+p.float {
+  float: left;
+  width: 200px;
+  margin: 0px;
+  background: #CCC;
+}
+
+p {
+  border: 1px solid red;
+}
