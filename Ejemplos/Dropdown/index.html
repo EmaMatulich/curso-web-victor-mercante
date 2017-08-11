@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Dropdown Menu</h2>
+<p>Move the mouse over the button to open the dropdown menu.</p>
+
+<div class="dropdown">
+  <button onclick="fijar()" class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+
+<p><strong>Note:</strong> We use href="#" for test links. In a real web site this would be URLs.</p>
+<script>
+    function fijar(){
+        var dropdown= document.getElementsByClassName('dropdown');
+        if(dropdown[0].classList.contains('dropdown-active')){
+            dropdown[0].classList.remove('dropdown-active');
+        }else{
+            dropdown[0].classList.add('dropdown-active');
+        }
+    };
+</script>
+</body>
+</html>
