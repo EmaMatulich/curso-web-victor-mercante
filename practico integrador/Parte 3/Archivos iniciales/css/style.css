@@ -1,0 +1,387 @@
+/*ESTILOS PARA EL TAMAÑO NORMAL DE LA PAGINA*/
+
+
+/*configuraciones basicas del body*/
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  color: rgb(92, 92, 92);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/*Configuracion contenedor multiples columnas*/
+
+.contenedor {
+  display: flex;
+}
+
+.contenedor-con-margen {
+  display: flex;
+  margin: 5%;
+}
+
+.contenedor-izq {
+  width: 49%;
+  box-sizing: border-box;
+  margin-right: 1%;
+}
+
+.contenedor-der {
+  box-sizing: border-box;
+  width: 49%;
+  margin-left: 1%;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*configuraciones del header*/
+
+header {
+  background-color: #FFF;
+  display: flex;
+  width: 100%;
+}
+
+div.header-logo {
+  width: 30%;
+  box-sizing: border-box;
+}
+
+div.header-logo>a, div.header-logo>a:link, div.header-logo>a:visited, div.header-logo>a:focus, div.header-logo>a:hover, div.header-logo>a:active {
+  color: rgb(92, 92, 92);
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 22px 20px;
+  line-height: 0;
+}
+
+nav.nav-bar {
+  width: 70%;
+  box-sizing: border-box;
+}
+
+ul.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  float: right;
+}
+
+ul.nav-bar li {
+  float: left;
+}
+
+ul.nav-bar li a, ul.nav-bar li a:link, ul.nav-bar li a:visited {
+  display: block;
+  padding: 25px 20px;
+  color: rgb(92, 92, 92);
+  font-size: 16px;
+  line-height: 0;
+}
+
+ul.nav-bar li a:focus, ul.nav-bar li a:hover, ul.nav-bar li a:active {
+  color: black;
+}
+
+
+/*Configuracion secciones*/
+
+
+/*Configuracion seccion home*/
+
+#home {
+  background-image: url(../imagenes/home/burger.jpeg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#home>div {
+  box-sizing: border-box;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+div.msj-central {
+  padding-top: 25%;
+  padding-bottom: 30%;
+}
+
+div.msj-central>h1 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 8px;
+}
+
+div.msj-central>h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+
+/*Configuracion seccion lugar*/
+
+#lugar>div.contenedor-der>h3 {
+  margin-top: 0;
+}
+
+
+/*Configuracion seccion galeria de comidas*/
+
+#foodgalery {
+  background-color: rgb(240, 240, 240);
+  overflow: auto;
+  width: 100%;
+}
+
+div.tarjeta {
+  float: left;
+  box-sizing: border-box;
+  margin: 1%;
+  width: 23%;
+  padding: 1.5%;
+  background-color: white;
+}
+
+div.tarjeta:hover {
+  cursor: pointer;
+  box-shadow: 6px 6px 5px #666;
+}
+
+div.tarjeta>img.img-tarjeta {
+  width: 100%;
+  height: 150px;
+  display: block;
+}
+
+
+/*Configuracion secicon menu*/
+
+#menu>div.contenedor-con-margen>div.contenedor-izq {
+  width: 40%;
+  box-sizing: border-box;
+  margin-right: 10%;
+}
+
+#menu>div.contenedor-con-margen>div.contenedor-der {
+  box-sizing: border-box;
+  width: 40%;
+  margin-left: 10%;
+}
+
+#menu>h3 {
+  margin: 5% 0 2% 0;
+}
+
+ul.lista-menu {
+  list-style-type: none;
+}
+
+ul.lista-menu li p {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+span.puntos:before {
+  content: '..........';
+}
+
+
+/*Configuracion seccion anecdotas*/
+
+#anecdotas>h3 {
+  padding-top: 2%;
+  margin: 0 0 2% 0;
+}
+
+p.tarjeta-recomendacion {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 26px;
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+}
+
+p.tarjeta-recomendacion:before, p.tarjeta-recomendacion:after {
+  content: '"';
+}
+
+p.tarjeta-recomendacion:hover {
+  cursor: pointer;
+  box-shadow: 6px 6px 5px #666;
+}
+
+
+/*Configuracion slider generico*/
+
+
+/* Contenedor del carousel */
+
+.carousel-contenedor {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.slide {
+  display: none;
+}
+
+.img-slide {
+  width: 100%;
+  height: 385px;
+}
+
+
+/* botones anterior y siguiente */
+
+.anterior, .siguiente {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+
+/* Ubica el boton siguiente a la derecha*/
+
+.siguiente {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, agrega un fondo negro con delay*/
+
+.anterior:hover, .siguiente:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Puntos indicadores */
+
+.punto {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .punto:hover {
+  background-color: #717171;
+}
+
+
+/* Animacion Fading */
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+
+
+/*Seccion contacto footer*/
+
+footer {
+  background-image: url(../imagenes/home/footer.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+footer>div.contenedor-con-margen>div.contenedor-izq {
+  width: 20%;
+  box-sizing: border-box;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+footer>div.contenedor-con-margen>div.contenedor-der {
+  box-sizing: border-box;
+  width: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+footer>div.contenedor-con-margen {
+  margin-bottom: 0 !important;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+footer h4 {
+  font-size: 18px;
+}
+
+footer span {
+  font-weight: bold;
+}
+
+
+/*Diseño responsive maximo 481 pixeles*/
